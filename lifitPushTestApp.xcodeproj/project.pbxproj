@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E3050B27829D7600A71D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3050A27829D7600A71D66 /* AppDelegate.swift */; };
+		26E3050D27829D7600A71D66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3050C27829D7600A71D66 /* SceneDelegate.swift */; };
+		26E3050F27829D7600A71D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3050E27829D7600A71D66 /* ViewController.swift */; };
+		26E3051227829D7600A71D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E3051027829D7600A71D66 /* Main.storyboard */; };
+		26E3051427829D7700A71D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E3051327829D7700A71D66 /* Assets.xcassets */; };
+		26E3051727829D7700A71D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E3051527829D7700A71D66 /* LaunchScreen.storyboard */; };
+		26E3052227829D7700A71D66 /* lifitPushTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3052127829D7700A71D66 /* lifitPushTestAppTests.swift */; };
+		26E3052C27829D7700A71D66 /* lifitPushTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3052B27829D7700A71D66 /* lifitPushTestAppUITests.swift */; };
+		26E3052E27829D7700A71D66 /* lifitPushTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3052D27829D7700A71D66 /* lifitPushTestAppUITestsLaunchTests.swift */; };
+		26E3053B2782A12500A71D66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E3053A2782A12500A71D66 /* GoogleService-Info.plist */; };
+		26E3053E2782AFB900A71D66 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 26E3053D2782AFB900A71D66 /* FirebaseAnalytics */; };
+		26E305402782AFB900A71D66 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 26E3053F2782AFB900A71D66 /* FirebaseAuth */; };
+		26E305422782AFB900A71D66 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 26E305412782AFB900A71D66 /* FirebaseFirestore */; };
+		26E305442782AFB900A71D66 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 26E305432782AFB900A71D66 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26E3051E27829D7700A71D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26E304FF27829D7600A71D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E3050627829D7600A71D66;
+			remoteInfo = lifitPushTestApp;
+		};
+		26E3052827829D7700A71D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26E304FF27829D7600A71D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E3050627829D7600A71D66;
+			remoteInfo = lifitPushTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26E3050727829D7600A71D66 /* lifitPushTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifitPushTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3050A27829D7600A71D66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26E3050C27829D7600A71D66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26E3050E27829D7600A71D66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26E3051127829D7600A71D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26E3051327829D7700A71D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26E3051627829D7700A71D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26E3051827829D7700A71D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E3051D27829D7700A71D66 /* lifitPushTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifitPushTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3052127829D7700A71D66 /* lifitPushTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifitPushTestAppTests.swift; sourceTree = "<group>"; };
+		26E3052727829D7700A71D66 /* lifitPushTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifitPushTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3052B27829D7700A71D66 /* lifitPushTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifitPushTestAppUITests.swift; sourceTree = "<group>"; };
+		26E3052D27829D7700A71D66 /* lifitPushTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifitPushTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26E3053A2782A12500A71D66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26E305452782B25800A71D66 /* lifitPushTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lifitPushTestApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E3050427829D7600A71D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E305442782AFB900A71D66 /* FirebaseMessaging in Frameworks */,
+				26E3053E2782AFB900A71D66 /* FirebaseAnalytics in Frameworks */,
+				26E305402782AFB900A71D66 /* FirebaseAuth in Frameworks */,
+				26E305422782AFB900A71D66 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3051A27829D7700A71D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3052427829D7700A71D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E304FE27829D7600A71D66 = {
+			isa = PBXGroup;
+			children = (
+				26E3050927829D7600A71D66 /* lifitPushTestApp */,
+				26E3052027829D7700A71D66 /* lifitPushTestAppTests */,
+				26E3052A27829D7700A71D66 /* lifitPushTestAppUITests */,
+				26E3050827829D7600A71D66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26E3050827829D7600A71D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26E3050727829D7600A71D66 /* lifitPushTestApp.app */,
+				26E3051D27829D7700A71D66 /* lifitPushTestAppTests.xctest */,
+				26E3052727829D7700A71D66 /* lifitPushTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E3050927829D7600A71D66 /* lifitPushTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				26E305452782B25800A71D66 /* lifitPushTestApp.entitlements */,
+				26E3050A27829D7600A71D66 /* AppDelegate.swift */,
+				26E3050C27829D7600A71D66 /* SceneDelegate.swift */,
+				26E3050E27829D7600A71D66 /* ViewController.swift */,
+				26E3053A2782A12500A71D66 /* GoogleService-Info.plist */,
+				26E3051027829D7600A71D66 /* Main.storyboard */,
+				26E3051327829D7700A71D66 /* Assets.xcassets */,
+				26E3051527829D7700A71D66 /* LaunchScreen.storyboard */,
+				26E3051827829D7700A71D66 /* Info.plist */,
+			);
+			path = lifitPushTestApp;
+			sourceTree = "<group>";
+		};
+		26E3052027829D7700A71D66 /* lifitPushTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				26E3052127829D7700A71D66 /* lifitPushTestAppTests.swift */,
+			);
+			path = lifitPushTestAppTests;
+			sourceTree = "<group>";
+		};
+		26E3052A27829D7700A71D66 /* lifitPushTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26E3052B27829D7700A71D66 /* lifitPushTestAppUITests.swift */,
+				26E3052D27829D7700A71D66 /* lifitPushTestAppUITestsLaunchTests.swift */,
+			);
+			path = lifitPushTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26E3050627829D7600A71D66 /* lifitPushTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3053127829D7700A71D66 /* Build configuration list for PBXNativeTarget "lifitPushTestApp" */;
+			buildPhases = (
+				26E3050327829D7600A71D66 /* Sources */,
+				26E3050427829D7600A71D66 /* Frameworks */,
+				26E3050527829D7600A71D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lifitPushTestApp;
+			packageProductDependencies = (
+				26E3053D2782AFB900A71D66 /* FirebaseAnalytics */,
+				26E3053F2782AFB900A71D66 /* FirebaseAuth */,
+				26E305412782AFB900A71D66 /* FirebaseFirestore */,
+				26E305432782AFB900A71D66 /* FirebaseMessaging */,
+			);
+			productName = lifitPushTestApp;
+			productReference = 26E3050727829D7600A71D66 /* lifitPushTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26E3051C27829D7700A71D66 /* lifitPushTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3053427829D7700A71D66 /* Build configuration list for PBXNativeTarget "lifitPushTestAppTests" */;
+			buildPhases = (
+				26E3051927829D7700A71D66 /* Sources */,
+				26E3051A27829D7700A71D66 /* Frameworks */,
+				26E3051B27829D7700A71D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26E3051F27829D7700A71D66 /* PBXTargetDependency */,
+			);
+			name = lifitPushTestAppTests;
+			productName = lifitPushTestAppTests;
+			productReference = 26E3051D27829D7700A71D66 /* lifitPushTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26E3052627829D7700A71D66 /* lifitPushTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3053727829D7700A71D66 /* Build configuration list for PBXNativeTarget "lifitPushTestAppUITests" */;
+			buildPhases = (
+				26E3052327829D7700A71D66 /* Sources */,
+				26E3052427829D7700A71D66 /* Frameworks */,
+				26E3052527829D7700A71D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26E3052927829D7700A71D66 /* PBXTargetDependency */,
+			);
+			name = lifitPushTestAppUITests;
+			productName = lifitPushTestAppUITests;
+			productReference = 26E3052727829D7700A71D66 /* lifitPushTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E304FF27829D7600A71D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					26E3050627829D7600A71D66 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					26E3051C27829D7700A71D66 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 26E3050627829D7600A71D66;
+					};
+					26E3052627829D7700A71D66 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 26E3050627829D7600A71D66;
+					};
+				};
+			};
+			buildConfigurationList = 26E3050227829D7600A71D66 /* Build configuration list for PBXProject "lifitPushTestApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26E304FE27829D7600A71D66;
+			packageReferences = (
+				26E3053C2782AFB900A71D66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 26E3050827829D7600A71D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E3050627829D7600A71D66 /* lifitPushTestApp */,
+				26E3051C27829D7700A71D66 /* lifitPushTestAppTests */,
+				26E3052627829D7700A71D66 /* lifitPushTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E3050527829D7600A71D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3051727829D7700A71D66 /* LaunchScreen.storyboard in Resources */,
+				26E3053B2782A12500A71D66 /* GoogleService-Info.plist in Resources */,
+				26E3051427829D7700A71D66 /* Assets.xcassets in Resources */,
+				26E3051227829D7600A71D66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3051B27829D7700A71D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3052527829D7700A71D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E3050327829D7600A71D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3050F27829D7600A71D66 /* ViewController.swift in Sources */,
+				26E3050B27829D7600A71D66 /* AppDelegate.swift in Sources */,
+				26E3050D27829D7600A71D66 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3051927829D7700A71D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3052227829D7700A71D66 /* lifitPushTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3052327829D7700A71D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3052C27829D7700A71D66 /* lifitPushTestAppUITests.swift in Sources */,
+				26E3052E27829D7700A71D66 /* lifitPushTestAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26E3051F27829D7700A71D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26E3050627829D7600A71D66 /* lifitPushTestApp */;
+			targetProxy = 26E3051E27829D7700A71D66 /* PBXContainerItemProxy */;
+		};
+		26E3052927829D7700A71D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26E3050627829D7600A71D66 /* lifitPushTestApp */;
+			targetProxy = 26E3052827829D7700A71D66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26E3051027829D7600A71D66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E3051127829D7600A71D66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26E3051527829D7700A71D66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E3051627829D7700A71D66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26E3052F27829D7700A71D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26E3053027829D7700A71D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26E3053227829D7700A71D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lifitPushTestApp/lifitPushTestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN83LS744U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lifitPushTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifit.cloud.lifitPushTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26E3053327829D7700A71D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lifitPushTestApp/lifitPushTestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN83LS744U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lifitPushTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifit.cloud.lifitPushTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26E3053527829D7700A71D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifit.cloud.lifitPushTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lifitPushTestApp.app/lifitPushTestApp";
+			};
+			name = Debug;
+		};
+		26E3053627829D7700A71D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifit.cloud.lifitPushTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lifitPushTestApp.app/lifitPushTestApp";
+			};
+			name = Release;
+		};
+		26E3053827829D7700A71D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifit.cloud.lifitPushTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lifitPushTestApp;
+			};
+			name = Debug;
+		};
+		26E3053927829D7700A71D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lifit.cloud.lifitPushTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lifitPushTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E3050227829D7600A71D66 /* Build configuration list for PBXProject "lifitPushTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3052F27829D7700A71D66 /* Debug */,
+				26E3053027829D7700A71D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E3053127829D7700A71D66 /* Build configuration list for PBXNativeTarget "lifitPushTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3053227829D7700A71D66 /* Debug */,
+				26E3053327829D7700A71D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E3053427829D7700A71D66 /* Build configuration list for PBXNativeTarget "lifitPushTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3053527829D7700A71D66 /* Debug */,
+				26E3053627829D7700A71D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E3053727829D7700A71D66 /* Build configuration list for PBXNativeTarget "lifitPushTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3053827829D7700A71D66 /* Debug */,
+				26E3053927829D7700A71D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26E3053C2782AFB900A71D66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26E3053D2782AFB900A71D66 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26E3053C2782AFB900A71D66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		26E3053F2782AFB900A71D66 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26E3053C2782AFB900A71D66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		26E305412782AFB900A71D66 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26E3053C2782AFB900A71D66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		26E305432782AFB900A71D66 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26E3053C2782AFB900A71D66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26E304FF27829D7600A71D66 /* Project object */;
+}
